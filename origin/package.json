@@ -1,0 +1,19 @@
+{
+  "name": "origin",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Board Game Store — учебное CLI-приложение (исходная ООП-версия)",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "build": "tsc",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8"
+  }
+}
